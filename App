@@ -7,13 +7,6 @@ workspace(
     patches = [
         "//tools/esm-interop:patches/bazel/nodejs_binary_esm_support.patch",
     ],
-    sha256 = "5dd1e5dea1322174c57d3ca7b899da381d516220793d0adef3ba03b9d23baa8e",
-    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/5.8.3/rules_nodejs-5.8.3.tar.gz"],
-)
-load("@build_bazel_rules_nodejs//:repositories.bzl", "build_bazel_rules_nodejs_dependencies")
-
-build_bazel_rules_nodejs_dependencies()
-
 # The PKG rules are needed to build tar packages for integration tests. The builtin
 # rule in `@bazel_tools` is not Windows compatible and outdated.
 # NOTE: We cannot move past version 0.6.0 as pkg_tar no longer works on directories, which rules_nodejs
