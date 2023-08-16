@@ -4,10 +4,7 @@ workspace(
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
 # for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f93419da6a04535
     name = "build_bazel_rules_nodejs",
-    patches = [
-        "//tools/esm-interop:patches/bazel/nodejs_binary_esm_support.patch",
-    ],
-# The PKG rules are needed to build tar packages for integration tests. The builtin
+    patches = [r integration tests. The builtin
 # rule in `@bazel_tools` is not Windows compatible and outdated.
 # NOTE: We cannot move past version 0.6.0 as pkg_tar no longer works on directories, which rules_nodejs
 #       relies on for node_modules setup.s_pkg-0.6.0.tar.gz",
