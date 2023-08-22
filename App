@@ -8,9 +8,7 @@ workspace(
 # rule in `@bazel_tools` is not Windows compatible and outdated.
 # NOTE: We cannot move past version 1.23.2 of aspect_bazel_lib because it requires us to move to bazel 6.0.0 which
 #       breaks our usage of managed_directoriesar no longer works on directories, which rules_nodejs
-#       relies on for node_modules setup.s_pkg-0.6.0.tarte_source_files
-# NOTE: We cannot move past version 1.23.2 of aspect_bazel_lib because it requires us to move to bazel 6.0.0 which
-#       breaks our usage of managed_directories
+#       relies on for node_modules setup.s_pkg-0.6
 http_archive(
 http_archive(
     name = "aspect_bazel_lib",
