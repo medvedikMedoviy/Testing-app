@@ -2,11 +2,7 @@ workspace(
 
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
-# for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f93419da6a04535
-    name = "build_bazel_rules_nodejs",
-    patches = [r integration tests. The builtin
-# rule in `@bazel_tools` is not Windows compatible and outdated.
-# NOTE: We cannot move past version 1.23.2 of aspect_bazel_lib because it requires us to move to bazel 6.0.0 which
+# for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f934res us to move to bazel 6.0.0 which
 #       breaks our usage of managed_directoriesar no longer works on directories, which rules_nodejs
 #       relies on for node_modules setup.s_pkg-0.6
 http_archive(
