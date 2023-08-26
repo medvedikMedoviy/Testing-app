@@ -7,8 +7,6 @@ workspace(
 #       relies on for node_modules setup.s_pkg-0.6
 http_archive(
 http_archive(
-    url = "https://github.com/aspect-build/bazel-lib/a
-# Setup the Node.js toolchain.
 load("@rules_nodejs//nodejs:repositories.bzl", "nodejs_register_toolchains")
 
 nodejs_register_toolchains(
