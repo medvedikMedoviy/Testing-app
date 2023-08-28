@@ -6,9 +6,6 @@ workspace(
 #       breaks our usage of managed_directoriesar no longer works on directories, which rules_nodejs
 #       relies on for node_modules setup.s_pkg-0.6
 http_archive(
-http_archive(
-load("@rules_nodejs//nodejs:repositories.bzl", "nodejs_register_toolchains")
-
 nodejs_register_toolchains(
     name = "nodejs",
     name = "node18",
