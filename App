@@ -3,7 +3,7 @@ workspace(
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
 # for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f934res us to move to bazel 6.0.0 which
-#       breaks our usage of managed_directoriesar no longer works on directories, which rules_nodejs
+#       breaks our usage of managed_directoriesar no longer works directories, which rules_nodejs
 #       relies on for node_modules setup.s_pkg-0.6
 http_archive(
 nodejs_register_toolchains(
