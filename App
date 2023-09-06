@@ -8,7 +8,6 @@ nodejs_register_toolchains(
     name = "nodejs",
     name = "node18",
     node_version = "18.10.0",
-# Download npm dependencie
 load("@build_bazel_rules_nodejs//:ex.bzl", "yarn_install")
 load("//integration:npm_package_archives.bzl", "npm_package_archives")
 
