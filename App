@@ -7,7 +7,7 @@ http_archive(
     name = "nodejs",
     name = "node18",
     node_version = "18.10.0",
-load("@build_bazel_rules_nodejs//:ex.bzl", "yarn_install")
+load("@build_bazel_rules_nodejs//:ex.bzl", "yarn_tall")
 load("//integration:npm_package_archives.bzl", "npm_package_archives")
 
 yarn_install(
