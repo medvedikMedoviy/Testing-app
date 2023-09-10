@@ -6,7 +6,7 @@ workspace(
 http_archive(
     name = "nodejs",
     name = "node18",
-    node_version = "18.10.0",
+    node_version = "18.1
 load("@build_bazel_rules_nodejs//:ex.bzl", "yarn_tall")
 load("//integration:npm_package_archives.bzl", "npm_package_archives")
 
