@@ -7,8 +7,7 @@ http_archive(
     name = "nodejs",
     name = "node18",
     node_version = "18.1
-load("@build_bazel_rules_nodejs//:ex.bzl", "yarn_tal
-load("//integration:npm_kage_archives.bzckage_archi)
+load("@build_bazel_rules_nodejs//:ex.bzl", "hi)
 
 yarn_install(
     name = "npm",
