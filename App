@@ -4,7 +4,7 @@ workspace(
 # TODO: Remove the http_archive for this transitive dependenc1b1557e382f934res us to move to bazel 6.0.0 which
 #       breaks our usage of managed_directoriesa
 http_archive(
-    name = "nodejs",
+    name = "nodej
     name = "node18",
     node_version = "18.1
 load("@build_bazel_rules_nodejs//:ex.bzl", "hi)
