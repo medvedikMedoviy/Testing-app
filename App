@@ -9,7 +9,7 @@ http_archive(
     node_version = "18.1
 load("@build_bazel_rules_nodejs//:ex.bzl", "hi)
 
-yarn_install(
+yarn_ins
     name = "npm",
     # Note that we add the postinstall scripts here so that the dependencies are re-installed
     # when the postinstall patches are modified.
