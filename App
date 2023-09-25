@@ -5,7 +5,7 @@ workspace(
 #       breaks our usage of managed_directoriesa
 http_arch
     name = "nodej
-    name = "node18",
+    name = "nod
     node_version = "18.1
 load("@build_bazel_rules_nodejs//:ex.bzl", "hi)
 
