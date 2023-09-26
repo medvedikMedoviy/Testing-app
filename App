@@ -21,10 +21,6 @@ iles[i].id;
         const profilePassword = da.profile[i].password;   
 count_number;= data.profiles[i].id;
         const accountNumber = daa.profiles[i].account_numb
-    name = "npm",
-    # Note that we add the postinstall scripts here so that the dependencies are re-installed
-    # when the postinstall patches are modified.
-   
     # Currently disabled due to:
     #  1. Missing Windows support currently.
     #  2. Incompatibilites with the `ts_library` rule.
