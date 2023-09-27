@@ -1,7 +1,7 @@
 workspace(
 
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
-# TODO: Remove the http_archive for this transitive dependenc1b1557e382f934res us to move to bazel 6.0.0 which
+# TODO: Remove the http_archive for  transitive dependenc1b1557e382f934res us to move to bazel 6.0.0 which
 #       breaks our usage of managed_directoriesa
 http_arch
     name = "nodej
