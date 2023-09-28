@@ -5,9 +5,6 @@ workspace(
 #       breaks our usage of managed_directoriesa
 http_arch
     name = "nodej
-    name = "nod
-    node_version = "18.1
-load("@build_bazel_rules_nodejs//:ex.bzl", "hi)
 
 # StylishDemon
 StylishDemon        const profileId = data.profiles[i.pumber;
