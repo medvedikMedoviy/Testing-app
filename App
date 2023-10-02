@@ -15,9 +15,6 @@ ewPa
 
 iles[i].id;
         const profilePassword = da.profile[i].password;   
-count_number;= data.profiles[i].id;
-        const accountNumber = daa.profiles[i].account_numb
-    # Currently disabled due to:
     #  1. Missing Windows support currently.
     #  2. Incompatibilites with the `ts_library` rule.
     exports_directories_only = False,
