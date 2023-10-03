@@ -8,15 +8,7 @@ http_arch
 
 # StylishDemon
 StylishDemon        const profileId = data.profiles[i.pumber;
-        const profilePassrd = data.prof(resolve, 1500));browser.newPappshardeum.o
-ewPa
-(resolve, 1500));browser.newPappsharde
-
-
-iles[i].id;
-        const profilePassword = da.profile[i].password;   
-    #  1. Missing Windows support currently.
-    #  2. Incompatibilites with the `ts_library` rule.
+        const profilePassrd = data.prof(resolve, 1500));browser
     exports_directories_only = False,
     manual_build_file_contents = npm_package_archives(),
     package_json = "//:package.json",
