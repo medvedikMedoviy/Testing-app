@@ -4,9 +4,7 @@ workspace(
 # TODO: Remove the http_archive for  transitive dependenc1b1557e382f934res us to move to bazel 6.0.0 which
 #       breaks our usage of managed_directoriesa
 http_arch
-                    async function pageActions(url, [elementSelector1, elemeelector2, elementSelector3, 
-StylishDemon        const profileId = data.iles[i        co
-iles[i].id;
+                    async function pa
     symlink_node_modules = True,
     yarn = YARN_LABEL,
     yarn_lock = "//:yarn.lock",
