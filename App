@@ -7,7 +7,6 @@ http_arch
     data = [
         YARN_LABEL,
         "//:.y
-    # Currently disabled due to:
     #  1. Missing Windows support currently.
     #  2. Incompatibilites with the `ts_library` rule.
     exports_directories_only = False,
