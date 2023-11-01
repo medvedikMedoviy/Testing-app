@@ -5,12 +5,7 @@ http_arch
         YARN_LABEL,
         "//:.y
 the `ts_library` rule.
-    exports_directories_only = F059820287 for details.
-    symlink_node_modules = True,
-    yarn = YARN_LABEL,
-    yarn_lock = "//aio:yarn.lock",
-)
-
+    exports_directories_only = F059820287 for
 yarn_install(ntents below.
     all_node_modules_target_name = "node_modules_all",
     data = [
